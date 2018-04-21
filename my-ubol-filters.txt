@@ -1,0 +1,15 @@
+dict.youdao.com##.contianer
+dict.youdao.com##.product-container
+dict.youdao.com##.top-banner-wrap
+
+huavod.com###chatroomToggle
+huavod.com###vipLink
+huavod.com##.announcement-container
+huavod.com##.ucl-final-banner
+huavod.com##.vipLink
+
+www.baidu.com###chat-input-extension
+www.baidu.com###content_right
+www.baidu.com###s-hotsearch-wrapper
+
+www.bilibili.com##.adblock-tips
