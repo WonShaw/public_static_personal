@@ -1,0 +1,99 @@
+[
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||mycomic.com/chapters/*",
+      "requestMethods": [
+        "post"
+      ]
+    },
+    "id": 1,
+    "priority": 10
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||recombee.com^",
+      "excludedInitiatorDomains": [
+        "recombee.com"
+      ]
+    },
+    "id": 2,
+    "priority": 10
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||youdao.com/*/ajax/collect^"
+    },
+    "id": 3,
+    "priority": 10
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||youdao.com/*/user/status_s^"
+    },
+    "id": 4,
+    "priority": 10
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/*log-reporter*",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest"
+      ]
+    },
+    "id": 5,
+    "priority": 10
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/*collect.js*",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest"
+      ]
+    },
+    "id": 6,
+    "priority": 10
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||mbd.baidu.com/ztbox*"
+    },
+    "id": 7,
+    "priority": 10
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/*clickstream*.js*",
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "id": 8,
+    "priority": 10
+  }
+]
